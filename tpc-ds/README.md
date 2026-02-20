@@ -27,9 +27,13 @@ project/
 │   ├── 04_register_and_deploy.py
 │
 ├── src/
-│   ├── data_prep.py
-│   ├── train.py
+│   ├── __init__.py
+│   ├── features.py
 │   ├── utils.py
+|
+├── tests/
+|   ├── __init__.py
+|   ├── test_utils.py
 │
 ├── conf/
 │   ├── config.yaml
